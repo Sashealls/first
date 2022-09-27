@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* global styles */
+
+body {
+    font-family: Inter;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1, h1, h3, p {
+    margin: 0;
+}
+
+header{
+    padding: 46px 92px 40px 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+.logo{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search > img {
+    margin-right: 13px;
+}
+
+.search > input {
+    border: none;
+    color: #718096;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 30px;
+    align-items: center;
+}
+
+.man{
+    padding: 0px 90px 42px 89px;
+}
+
+.titleone > h1{
+    font-family: 'Inter';
+    font-size: 45px;
+    color: #2d3748;
+}
+
+.titleone{
+    padding: 0px 328px 19px 192px;
+}
+
+.titletwo > h2{
+    font-family:'Inter' ;
+    font-size: 18px;
+    color: #2d3748;
+    margin-right: 25px;
+}
+
+.titletwo > p{
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #718096;
+}
+
+.titletwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 610px 30px 192px;
+}
+
+.border{
+    border-top: 1px solid #e8e7e7;
+    padding: 0px 203px 37px 189px;
+}
+
+.bigtext{
+    font-family: 'Inter' ;
+    font-size: 16px ;
+    color: #718096;
+    padding:  0px 195px 58px 192px;
+}
+
+.bigtext > h1,h2,h3{
+    color: black;
+}
+
+footer {
+    border-top: 1px solid #E8E8E8;
+    padding: 30px 100px 31px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #000000
+}
+
+.footer-navigation {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 30px;
+    align-items: center;
+}
